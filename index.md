@@ -7,7 +7,7 @@ layout: homepage
 I'm an Ph.D. student at [CISPA Helmholtz Center for Information Security](https://cispa.de), supervised by [Prof. Dr. Cas Cremers](https://people.cispa.io/cas.cremers/). 
 The main focus of my research is the theory and practice of automated reasoning, aimed at developing techniques that assist us in solving computationally hard problems such as the verification of security protocols, software, and hardware. 
 Together with [Aurora Naska](https://cispa.de/en/people/aurora.naska) and Cas Cremers I have created and analyzed an extensive formal model of [DMTF's SPDM](https://www.dmtf.org/standards/spdm) protocol to enable infrastrucuture security. 
-With [Robert Künnemann](http://www.kunnemann.de/) I have proposed a novel techniques to verify rule-based risk assessment techniques using methods from the Symbolic Model of Cryptography. 
+With [Robert Künnemann](http://www.kunnemann.de/) I have proposed novel techniques to verify rule-based risk assessment techniques using methods from the Symbolic Model of Cryptography. 
 
 Before starting my Ph.D. journey, 
 I did a Master (MSc) in *Computer Science* under [Prof. Michael Backes](https://cispa.de/en/people/backes) and Robert Künnemann at [Saarland University](https://www.uni-saarland.de/en/home.html), Germany, Saarbrücken. 
