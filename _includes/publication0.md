@@ -7,7 +7,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="">  How To Wrap It Up - A Formally Verified Proposal for the use of Authenticated Wrapping in PKCS#11</a></div>
+    <div class="title"><a href="/pub0">  How To Wrap It Up - A Formally Verified Proposal for the use of Authenticated Wrapping in PKCS#11</a></div>
     <div class="author">Michael Backes, <strong>Alexander Dax</strong>, Robert Künnemann, Sven Tangermann</div>
     <div class="periodical"><em> IEEE Computer Security Foundations Symposium <strong>(CSF)</strong>, 2019.</em></div>
     <div class="links">
