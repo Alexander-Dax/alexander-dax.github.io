@@ -1,0 +1,40 @@
+# Basic Information 
+title: Alexander Dax
+position: Ph.D. Student
+affiliation: CISPA Helmholtz Center for Information Security
+email: alexander.dax (at) cispa.de
+
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: Alexander Dax Website Webpage
+description: Personal homepage of Alexander Dax.
+
+# Links 
+# If you don't need one of them, you may delete the corresponding line.
+google_scholar: https://scholar.google.de/citations?user=QdjMKAcAAAAJ&hl=en&oi=ao
+cv_link: assets/files/curriculum_vitae.pdf
+github_link: https://github.com/Alexander-Dax
+linkedin: https;//www.linkedin.com/in/alexander-dax
+dblp: https://dblp.org/pid/240/8159.html
+
+# Images (e.g., your profile picture and your website's favicon) 
+# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
+avatar: ./assets/img/avatar.png
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
+
+# Footnote
+# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
+enable_footnote: true
+
+
+# Use this project as a remote theme for GitHub Pages
+# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+remote_theme: yaoyao-liu/minimal-light
+
+# The following files will be removed from the generated website.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - minimal-light.gemspec
