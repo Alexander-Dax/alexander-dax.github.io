@@ -12,9 +12,9 @@ description: Personal homepage of Alexander Dax.
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.de/citations?user=QdjMKAcAAAAJ&hl=en&oi=ao
-cv_link: assets/files/curriculum_vitae.pdf
+cv_link: https://alexanderdax.com  #assets/files/curriculum_vitae.pdf
 github_link: https://github.com/Alexander-Dax
-linkedin: https;//www.linkedin.com/in/alexander-dax
+linkedin: https://www.linkedin.com/in/alexander-dax
 dblp: https://dblp.org/pid/240/8159.html
 
 # Images (e.g., your profile picture and your website's favicon) 
