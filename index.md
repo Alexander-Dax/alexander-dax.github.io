@@ -35,6 +35,7 @@ There I also finished my Bachelor (BSc) in *Cybersecurity* under Prof. Michael B
 ## Teaching
 
 - Teaching Assistant, [Formal analysis of real-world security protocols](https://cms.cispa.saarland/farwsp22/) at Saarland University, SS 2022
+- Assistant, [Tamarin Prover Tutorial](https://summerschool-croatia.cs.ru.nl/2022/tutorialSpeakers.shtml#Cas) at Summer School on real-world crypto and privacy, 2022
 - Tutor, [Informationssysteme](https://bigdata.uni-saarland.de/teaching/ss17/infosys.php) at Saarland University, SS 2017
 - Tutor, [Foundations of Cybersecurity 1]() at Saarland University, WS 2016/2017
 
