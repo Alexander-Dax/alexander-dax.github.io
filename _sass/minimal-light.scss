@@ -240,6 +240,16 @@ papertitle {
       width: 8.00em;
     }
 
+.collab {
+  border-radius: 100%;
+}    
+.collab img {
+
+  border-radius: 100%;
+  width: 90px;
+  padding: 20px;
+}
+
 h3, h4, h5, h6 {
   font-weight: 600;
   color:#043361;
@@ -365,6 +375,22 @@ th {
 
 img {
   max-width:100%;
+}
+
+.coolcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+
+.authorcollab {
+  flex: 0 1 auto;
+  align-self: flex-start;
+  text-align: center;
+  width: 200px;
 }
 
 header {

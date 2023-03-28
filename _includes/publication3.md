@@ -1,13 +1,15 @@
 <li>
 <div class="pub-row">
 
+  <a href="pub3.html">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/SPDM/SPDM-img.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">Usenix</abbr>
   </div>
+  </a>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="">Formal Analysis of SPDM: Security Protocol and Data Model version 1.2</a></div>
+    <div class="title"><a href="pub3.html">Formal Analysis of SPDM: Security Protocol and Data Model version 1.2</a></div>
     <div class="author">Cas Cremers, <strong>Alexander Dax</strong>, Aurora Naska</div>
     <div class="periodical"><em>USENIX Security Symposium <strong>(USENIX)</strong>, 2023.</em></div>
     <div class="links">

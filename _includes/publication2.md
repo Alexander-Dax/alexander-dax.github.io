@@ -1,13 +1,15 @@
 <li>
 <div class="pub-row">
 
+  <a href="pub2.html">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/Hash/Hash-img.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">Usenix</abbr>
   </div>
+  </a>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="">Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses</a></div>
+    <div class="title"><a href="pub2.html">Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses</a></div>
     <div class="author">Vincent Cheval, Cas Cremers, <strong>Alexander Dax</strong>, Lucca Hirschi, Charlie Jacomme, Steve Kremer</div>
     <div class="periodical"><em>USENIX Security Symposium <strong>(USENIX)</strong>, 2023.</em></div>
     <div class="links">
