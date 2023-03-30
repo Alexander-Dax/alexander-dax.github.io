@@ -1,0 +1,20 @@
+# Associations
+# comment out the urls if you do not wish to display them
+
+- organization: Computer Science Students' Representative Council
+  role: Volunteer
+  year: 2017 &mdash; 2019
+  url: https://cs.fs.uni-saarland.de/en/
+  summary: During my junior years in Saarland University I was actively involved in the computer science students' representative council as an elected member.
+
+- organization: FIS e.V.
+  role: Elected Board Member
+  year: 2019 &mdash; 2021
+  url: https://cs.fs.uni-saarland.de/uber-uns/fis/
+  summary: The FIS e.V. is a nonprofit organization with the goal to ease and improve the studies of computer science students at Saarland Unviersity.
+
+- organization: CISPA Works Council
+  role: Elected Member 
+  year: 2022 &mdash; Present
+  url: https://cispa.de/de/about/workscouncil
+  summary: Elected Member of the Works Council of the CISPA Helmholtz Center for Information Security.

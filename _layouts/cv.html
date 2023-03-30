@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <title>{{ site.title }} | {{site.affiliation}}</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous>
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+</head>
+    
+      <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
+    
+        <div class="wrappers" itemscope itemtype="http://schema.org/Person">
+          <meta itemprop="telephone" content="{{ site.resume_contact_telephone }}"/>
+          <meta itemprop="address" content="{{ site.resume_contact_address }}"/>
+    
+          <header class="page-header">
+    
+            <img src="{{ site.avatar }}" alt="my photo" class="avatar no-print" itemprop="image">
+
+    
+            <!-- Your name is defined in the _config.yml file -->
+            <h1 class="header-name" itemprop="name">{{ site.title }}</h1>
+    
+            <div class="header-contact-info">
+              <p>{{ site.email }}</p>
+            </div>
+    
+            <div class="title-bar no-print">
+    
+              <!-- Your title is also defined in the _config.yml file -->
+              <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
+    
+              <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
+              <div class="social-icons">
+                {% if site.google_scholar %}
+                <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
+                  <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+                </a>  
+                {% endif %}
+        
+                {% if site.github_link %}
+                <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
+                  <i class="fab fa-github"></i>
+                </a>
+                {% endif %}
+        
+                {% if site.linkedin %}
+                <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                {% endif %}
+        
+                {% if site.dblp %}
+                <a style="margin: 0 5px 0 0" href="{{ site.dblp }}">
+                  <i class="ai ai-dblp"></i>
+                </a>
+                {% endif %}
+                </div>
+            </div>
+    
+            <div class="executive-summary" itemprop="description">
+              {{ site.resume_header_intro }}
+            </div>
+    
+            {% if site.resume_looking_for_work == 'yes' %}
+            <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
+            {% elsif site.resume_looking_for_work == 'no' %}
+            <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
+            {% else %}
+            {% endif %}
+    
+          </header>
+    
+         {{ content }}
+  
+    
+        </div>
+    
+      </body>
+    
+    </html>

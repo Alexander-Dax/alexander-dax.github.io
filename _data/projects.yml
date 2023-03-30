@@ -1,0 +1,18 @@
+# Paper
+# Harvard Style
+
+# wrap
+- description: Cremers, C., Dax, A. and Naska, A., 2023, August. Formal Analysis of SPDM Security Protocol and Data Model version 1.2. In USENIX 2023
+  link: <a class="publink" href="pub3.html">Publication Page</a>
+
+# wrap
+- description: Cheval, V., Cremers, C., Dax, A., Hirschi, L., Jacomme, C. and Kremer, S., 2023, August. Hash Gone Bad Automated discovery of protocol attacks that exploit hash function weaknesses. In USENIX 2023.
+  link: <a class="publink" href="pub2.html">Publication Page</a>
+
+# infrasound
+- description: Dax, A. and Künnemann, R., 2021, June. On the soundness of infrastructure adversaries. In 2021 IEEE 34th Computer Security Foundations Symposium (CSF) (pp. 1-16). IEEE.
+  link: <a class="publink" href="pub1.html">Publication Page</a>
+
+# wrap
+- description: Dax, A., Künnemann, R., Tangermann, S. and Backes, M., 2019, June. How to Wrap it up-A Formally Verified Proposal for the use of Authenticated Wrapping in PKCS# 11. In 2019 IEEE 32nd Computer Security Foundations Symposium (CSF) (pp. 62-6215). IEEE
+  link: <a class="publink" href="pub0.html">Publication Page</a>
