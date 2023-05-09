@@ -18,7 +18,8 @@
 
 // page header styles
 
-.page-header { padding: 1.5rem 0;
+.page-header {
+  padding: 1.5rem 0;
 
   .avatar {
     width: 95px;
@@ -43,6 +44,7 @@
     @include sans;
     text-align: center;
   }
+
   .header-contact-info p a {
     color: inherit;
   }
@@ -70,7 +72,9 @@
   }
 
   .executive-summary {
-    @include media_larger_than_mobile { font-size: 1.125rem; }
+    @include media_larger_than_mobile {
+      font-size: 1.125rem;
+    }
   }
 }
 
@@ -95,7 +99,8 @@
     margin-left: 5px;
   }
 
-  .icon-link { display: inline-block;
+  .icon-link {
+    display: inline-block;
 
     &:hover .icon path {
       fill: #333;
@@ -127,17 +132,25 @@
     color: #fff;
   }
 
-  &.not-looking { width: 400px; }
+  &.not-looking {
+    width: 400px;
+  }
 }
 
-@media (prefers-color-scheme: dark) { .contact-button {background-color: #3eb7f0 !important; }}
+@media (prefers-color-scheme: dark) {
+  .contact-button {
+    background-color: #3eb7f0 !important;
+  }
+}
 
 // resume content styles
 
 .content-section {
   margin: 0 0 3rem;
 
-  .resume-item { margin-bottom: 2rem; }
+  .resume-item {
+    margin-bottom: 2rem;
+  }
 
   .resume-item-title {
     @include sans_bold;
@@ -172,10 +185,12 @@
     }
   }
 
-  .resume-item-copy { margin: .75rem 0 0; }
+  .resume-item-copy {
+    margin: .75rem 0 0;
+  }
 }
 
-.resume-item-title{
+.resume-item-title {
   a {
     color: #fff;
     text-decoration: none;
@@ -201,34 +216,58 @@
     font-size: .875rem;
     color: #999;
 
-    > a {
+    >a {
       font-weight: 700;
       color: #333;
     }
   }
 }
 
-.print-only { display: none !important }
+.print-only {
+  display: none !important
+}
 
 @media print {
-  .no-print { display: none !important }
-  .print-only { display: block !important }
-  body { font-size: 12px; line-height: 1rem; }
-  .page-header { padding: 1rem 0 .2rem;
+  .no-print {
+    display: none !important
+  }
+
+  .print-only {
+    display: block !important
+  }
+
+  body {
+    font-size: 12px;
+    line-height: 1rem;
+  }
+
+  .page-header {
+    padding: 1rem 0 .2rem;
+
     .header-name {
       @include sans_bold;
       font-size: 2rem;
       margin: 0 0 .2rem;
     }
   }
+
   .section-header {
     @include section_border_thin;
     margin-bottom: 1rem;
-    h2 { font-size: 1.2rem; line-height: 1.5rem; }
+
+    h2 {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
   }
+
   .content-section {
     margin: 0 0 1rem;
-    .resume-item { margin-bottom: 1rem; }
+
+    .resume-item {
+      margin-bottom: 1rem;
+    }
+
     .resume-item-title {
       font-size: 16px;
       line-height: .7em;
@@ -238,7 +277,7 @@
       font-size: 12px;
       margin: 0 0 .75rem;
       line-height: .7em;
-      font-style:italic;
+      font-style: italic;
 
       &.award-title {
         font-size: 11px;
@@ -246,30 +285,49 @@
     }
   }
 }
+
 .social-icons {
   text-align: right;
 }
 
-.social-icons a{
-  display:inline-block;
-  height:2.4rem;
-  width:2.4rem;
-  background-color:transparent;
-  color:#043361!important;
-  border-radius:100%;
-  text-align:center;
-  font-size:1.15rem;
-  line-height:2.5rem;
-  margin-right:1rem}
+@media all and (max-width: 1024px) {
+  .social-icons {
+    text-align: center;
+  }
+}
 
-@media (prefers-color-scheme: dark) { .social-icons a {color: #3eb7f0 !important; }}
+.social-icons a {
+  display: inline-block;
+  height: 2.4rem;
+  width: 2.4rem;
+  background-color: transparent;
+  color: #043361 !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.15rem;
+  line-height: 2.5rem;
+  margin-right: 1rem
+}
+
+@media (prefers-color-scheme: dark) {
+  .social-icons a {
+    color: #3eb7f0 !important;
+  }
+}
 
 
 
-.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
-    color:black;
-    transform: scale(1.2)}
-    /*
+.social-icons a:last-child {
+  margin-right: 0
+}
+
+.social-icons a:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.2)
+}
+
+/*
     .social-icons a:after {
         content: '';
         display: block;
@@ -285,10 +343,18 @@
       }
      */
 
-@media (prefers-color-scheme: dark) {.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#20212b;
-    color:black;
-    transform: scale(1.2)} 
-    /*
+@media (prefers-color-scheme: dark) {
+  .social-icons a:last-child {
+    margin-right: 0
+  }
+
+  .social-icons a:hover {
+    background-color: #20212b;
+    color: black;
+    transform: scale(1.2)
+  }
+
+  /*
     .social-icons a:after {
         content: '';
         display: block;
@@ -305,85 +371,102 @@
     */
 }
 
-.icon-button{
-  background-color:white;
-  border-radius:3.6rem;
-  cursor:pointer;
-  display:inline-block;
-  font-size:2.0rem;
-  height:3.6rem;
-  line-height:3.6rem;
-  margin:0 5px;
-  position:relative;
-  text-align:center;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;width:3.6rem}
-
-.icon-button span{
-  border-radius:0;
-  display:block;
-  height:0;
-  left:50%;
-  margin:0;
-  position:absolute;
-  top:50%;
-  -webkit-transition:all 0.3s;
-  -moz-transition:all 0.3s;
-  -o-transition:all 0.3s;
-  transition:all 0.3s;
-  width:0}
-
-.icon-button:hover span{
-  width:3.6rem;
-  height:3.6rem;
-  border-radius:3.6rem;
-  margin:-1.8rem}
-
-.twitter span{
-  background-color:#4099ff}
-
-.facebook span{
-  background-color:#4286f4}
-
-.linkedin span{
-  background-color:#0077B5}
-
-.github span{
-  background-color:#000}
-
-email {
-    font-size: 14px;
-    font-family: "Ubuntu Mono";
+.icon-button {
+  background-color: white;
+  border-radius: 3.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2.0rem;
+  height: 3.6rem;
+  line-height: 3.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 3.6rem
 }
 
-.icon-button i{
-  background:none;
-  color:white;
-  height:3.6rem;
-  left:0;
-  line-height:3.6rem;
-  position:absolute;
-  top:0;
-  -webkit-transition:all 0.3s;
-  -moz-transition:all 0.3s;
-  -o-transition:all 0.3s;
-  transition:all 0.3s;
-  width:3.6rem;
-  z-index:10}
+.icon-button span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 0
+}
 
-.icon-button .icon-twitter{
-  color:#4099ff}
+.icon-button:hover span {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 3.6rem;
+  margin: -1.8rem
+}
 
-.icon-button .icon-facebook{
-  color:#4286f4}
+.twitter span {
+  background-color: #4099ff
+}
 
-.icon-button .icon-github{
-  color:#000;}
+.facebook span {
+  background-color: #4286f4
+}
 
-.icon-button .icon-linkedin{
-  color:#0077B5}
+.linkedin span {
+  background-color: #0077B5
+}
 
-.icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
+.github span {
+  background-color: #000
+}
 
+email {
+  font-size: 14px;
+  font-family: "Ubuntu Mono";
+}
+
+.icon-button i {
+  background: none;
+  color: white;
+  height: 3.6rem;
+  left: 0;
+  line-height: 3.6rem;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 3.6rem;
+  z-index: 10
+}
+
+.icon-button .icon-twitter {
+  color: #4099ff
+}
+
+.icon-button .icon-facebook {
+  color: #4286f4
+}
+
+.icon-button .icon-github {
+  color: #000;
+}
+
+.icon-button .icon-linkedin {
+  color: #0077B5
+}
+
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .icon-github,
+.icon-button:hover .icon-linkedin {
+  color: white
+}

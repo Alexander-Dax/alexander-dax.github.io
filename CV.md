@@ -45,7 +45,8 @@ layout: cv
 </section>
 <!-- end Projects -->
 
-<!-- begin Skills -->
+<!-- begin Skills --> 
+<!--
 <section class="content-section">
     <header class="section-header">
         <h2>Skills</h2>
@@ -56,7 +57,8 @@ layout: cv
               <p class="resume-item-copy">{{ skill.description }}</p>
             </div>
             {% endfor %}
-</section>
+</section> 
+-->
 <!-- end Skills -->
 
 
@@ -76,6 +78,7 @@ layout: cv
 <!-- end Associations -->
 
 <!-- begin Interests -->
+<!--
 <section class="content-section">
     <header class="section-header">
         <h2>Outside Interests</h2>
@@ -88,5 +91,6 @@ layout: cv
         </ul>
     </div>
 </section>
+-->
 <!-- end Interests -->
 
