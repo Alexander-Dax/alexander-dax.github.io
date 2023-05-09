@@ -12,7 +12,7 @@ description: Personal homepage of Alexander Dax.
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.de/citations?user=QdjMKAcAAAAJ&hl=en&oi=ao
-cv_link: CV.html  #assets/files/curriculum_vitae.pdf
+cv_link: CV.html  # used snippets from https://github.com/jglovier/resume-template
 github_link: https://github.com/Alexander-Dax
 linkedin: https://www.linkedin.com/in/alexander-dax
 dblp: https://dblp.org/pid/240/8159.html
