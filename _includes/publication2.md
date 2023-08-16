@@ -15,9 +15,11 @@
     <div class="links">
       <a href="/assets/Hash/Hash.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="/assets/Hash/Hash-long.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Extended</a>
+      <a href="/assets/Hash/Hash-slides.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Slides</a>
       <a href="https://github.com/charlie-j/symbolic-hash-models" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <a href="https://dblp.org/rec/journals/iacr/ChevalCDHJK22.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      <a href="https://dblp.org/rec/conf/uss/ChevalCDHJK23.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
     </div>
+    <strong>Distinguished Paper Award</strong>
   </div>
 </div>
 </li>

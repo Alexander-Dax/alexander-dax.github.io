@@ -15,8 +15,9 @@
     <div class="links">
       <a href="/assets/SPDM/SPDM.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="/assets/SPDM/SPDM-long.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Extended</a>
+      <a href="/assets/SPDM/SPDM-slides.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Slides</a>
       <a href="https://github.com/FormalAnalysisOf/SPDM" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <a href="https://dblp.org/rec/journals/iacr/CremersDN22.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      <a href="https://dblp.org/rec/conf/uss/CremersDN23.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
     </div>
   </div>
 </div>

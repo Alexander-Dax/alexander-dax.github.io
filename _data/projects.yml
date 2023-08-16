@@ -4,6 +4,7 @@
 # aead
 - description: Cremers, C., Dax, A., Jacomme, C. and Zhao, M., 2023, August. Automated Analysis of Protocols that use Authenticated Encryption How Subtle AEAD Differences can impact Protocol Security. In USENIX 2023.
   link: <a class="publink" href="pub3.html">Publication Page</a>
+  award: Distinguished Paper Award
 
 # spdm
 - description: Cremers, C., Dax, A. and Naska, A., 2023, August. Formal Analysis of SPDM Security Protocol and Data Model version 1.2. In USENIX 2023.
@@ -12,6 +13,7 @@
 # hash
 - description: Cheval, V., Cremers, C., Dax, A., Hirschi, L., Jacomme, C. and Kremer, S., 2023, August. Hash Gone Bad Automated discovery of protocol attacks that exploit hash function weaknesses. In USENIX 2023.
   link: <a class="publink" href="pub2.html">Publication Page</a>
+  award: Distinguished Paper Award
 
 # infrasound
 - description: Dax, A. and Künnemann, R., 2021, June. On the soundness of infrastructure adversaries. In 2021 IEEE 34th Computer Security Foundations Symposium (CSF) (pp. 1-16). IEEE.

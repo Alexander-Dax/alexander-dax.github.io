@@ -39,6 +39,7 @@ layout: cv
     {% for project in site.data.projects %}
     <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
               <p class="resume-item-copy">{{ project.description }}</p>
+              <p class="resume-item-copy"><strong> {{ project.award }} </strong></p>
               <p class="resume-item-copy">{{ project.link }}</p>
     </div>
     {% endfor %}
