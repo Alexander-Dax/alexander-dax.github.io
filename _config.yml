@@ -33,7 +33,7 @@ baseurl: ""
 resume_title:                   "PhD Student"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "alexander@dax.saarland"
+resume_contact_email:           "alexanderdax.inf@gmail.com"
 
 
 resume_header_intro: "<p>My name is Alex and I am an PhD student at CISPA Helmholtz Center for Information Security, supervised by Prof. Dr. Cas Cremers. The main focus of my research is the theory and practice of automated reasoning, aimed at developing techniques that assist us in solving computationally hard problems such as the verification of security protocols, software, and hardware. </p>"
