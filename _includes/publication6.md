@@ -9,7 +9,7 @@
   </a>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="pub3.html">Breaking and Provably Restoring Authentication: A Formal Analysis of SPDM 1.2 including Cross-Protocol Attacks</a></div>
+    <div class="title"><a href="pub6.html">Breaking and Provably Restoring Authentication: A Formal Analysis of SPDM 1.2 including Cross-Protocol Attacks</a></div>
     <div class="author">Cas Cremers, <strong>Alexander Dax</strong>, Aurora Naska</div>
     <div class="periodical"><em>Under Submission, 2025.</em></div>
     <div class="links">
