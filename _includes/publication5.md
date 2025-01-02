@@ -10,6 +10,8 @@
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="pub5.html">Keeping Up with the KEMs: Stronger Security Notions for KEMs and Automated Analysis of KEM-based Protocols</a></div>
+    <strong class="golden-base golden1">Distinguished Artifact Award</strong>
+    <i class="em em-trophy" aria-role="presentation" aria-label="TROPHY"></i>
     <div class="author">Cas Cremers, <strong>Alexander Dax</strong>, Niklas Medinger</div>
     <div class="periodical"><em>ACM Conference on Computer and Communications Security <strong>(CCS)</strong>, 2024.</em> </div>
     <div class="links">

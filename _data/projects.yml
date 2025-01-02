@@ -1,9 +1,18 @@
 # Paper
 # Harvard Style
 
+# spdm2
+- description: Cremers, C., Dax, A. and Naska, A., 2025. Breaking and Provably Restoring Authentication A Formal Analysis of SPDM 1.2 including Cross-Protocol Attacks. Under Submission.
+  link: <a class="publink" href="pub6.html">Publication Page</a>
+
+# kem
+- description: Cremers, C., Dax, A. and Medinger, N., 2024, October. Keeping Up with the KEMs Stronger Security Notions for KEMs and Automated Analysis of KEM-based Protocols.. In CCS 2024.
+  link: <a class="publink" href="pub5.html">Publication Page</a>
+  award: Distinguished Artifact Award
+
 # aead
 - description: Cremers, C., Dax, A., Jacomme, C. and Zhao, M., 2023, August. Automated Analysis of Protocols that use Authenticated Encryption How Subtle AEAD Differences can impact Protocol Security. In USENIX 2023.
-  link: <a class="publink" href="pub3.html">Publication Page</a>
+  link: <a class="publink" href="pub4.html">Publication Page</a>
   award: Distinguished Paper Award
 
 # spdm

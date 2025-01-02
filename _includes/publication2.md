@@ -10,6 +10,8 @@
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="pub2.html">Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses</a></div>
+    <strong class="golden-base golden1">Distinguished Paper Award</strong>
+    <i class="em em-trophy" aria-role="presentation" aria-label="TROPHY"></i>
     <div class="author">Vincent Cheval, Cas Cremers, <strong>Alexander Dax</strong>, Lucca Hirschi, Charlie Jacomme, Steve Kremer</div>
     <div class="periodical"><em>USENIX Security Symposium <strong>(USENIX)</strong>, 2023.</em></div>
     <div class="links">
@@ -19,7 +21,6 @@
       <a href="https://github.com/charlie-j/symbolic-hash-models" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <a href="https://dblp.org/rec/conf/uss/ChevalCDHJK23.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
     </div>
-    <strong>Distinguished Paper Award</strong>
   </div>
 </div>
 </li>
