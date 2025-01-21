@@ -12,7 +12,7 @@ KEMs in the symbolic model of cryptography.
 
 Before starting my Ph.D. journey,
 I did a Master (MSc) in _Computer Science_ under Prof. Dr. Cas Cremers and Dr. Robert Künnemann at [Saarland University](https://www.uni-saarland.de/en/home.html), Germany, Saarbrücken.
-There I also finished my Bachelor (BSc) in _Cybersecurity_ under [Prof. Michael Backes](https://cispa.de/en/people/backes) and Dr. Robert Künnemann.
+There I also finished my Bachelor (BSc) in _Cybersecurity_ under [Prof. Michael Backes](https://michaelbackes.eu/) and [Dr. Robert Künnemann](http://kunnemann.de/).
 
 ## Research Interests
 
